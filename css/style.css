@@ -48,8 +48,7 @@ table {
 	border-spacing: 0;
 }
 .section-page-wrapper-lazyload-image{
-	padding-left: 29px;
-   padding-right: 29px;
+	padding: 0 60px;
    margin-top: 31px;
 }
 .section-full-main{
@@ -93,6 +92,16 @@ table {
 .page-header .header-middle-sticky .header .space-between-header .icon-header ul li a{
 	text-decoration: none;
 	color: #222;
+}
+.page-header .header-middle-sticky .header .space-between-header .icon-header ul li .minicart-wrapper{
+	display: flex;
+}
+.page-header .header-middle-sticky .header .space-between-header .icon-header ul li .minicart-wrapper .counter-qty{
+	background: #c7ab62;
+	border-radius: 50%;
+	color: #fff;
+	padding: 2px;
+	margin-left: 10px;
 }
 .column-main{
 	margin-bottom: 78px;
@@ -222,12 +231,11 @@ table {
 .section-full-main{
 	margin-bottom: 76px;
 }
+.section-full-main .section-full-width-banner-middle{
+	padding: 0 48px;
+}
 .section-full-main .section-full-width-banner-middle .col-banner-absolute-content-image{
 	position: relative;
-}
-.section-full-main .section-full-width-banner-middle{
-	padding-left: 17px;
-	padding-right: 17px;
 }
 .section-full-main .section-full-width-banner-middle .col-banner-absolute-content-image .banner-img img{
 	width: 100%;
