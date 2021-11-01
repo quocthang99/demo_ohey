@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 .section-page-wrapper-lazyload-image{
-	padding: 0 60px;
+	padding: 0 30px;
    margin-top: 31px;
 }
 .section-full-main{
@@ -232,7 +232,7 @@ table {
 	margin-bottom: 76px;
 }
 .section-full-main .section-full-width-banner-middle{
-	padding: 0 48px;
+	padding: 0 17px;
 }
 .section-full-main .section-full-width-banner-middle .col-banner-absolute-content-image{
 	position: relative;
@@ -660,6 +660,12 @@ footer{
 
 /*responsive*/
 	@media(min-width: 1920px){
+		.section-page-wrapper-lazyload-image{
+			padding: 0 61px;
+		}
+		.section-full-main .section-full-width-banner-middle{
+			padding: 0 50px;
+		}
 		.page-header .header-middle-sticky .header .space-between-header .icon-header ul li span{
 			display: none;
 		}
